@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pink - заполнение формы</title>
+</head>
+<body>
+    <header class="header">
+        <a class="logo">
+            <img class="logo__img" src="" alt="Pink - мобильное приложение">
+        </a>
+        <nav class="main-navigation">
+            <ul class="main-menu__list">
+                <li class="main-menu__item">
+                    <a class="main-menu__link">Главная</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="foto.html" class="main-menu__link">Фотографии</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="photo.html" class="main-menu__link">Конкурс</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="htmlacademy.ru" class="main-menu__link">Html Academy</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="visually-hidden">Pink - мобильное приложение</h1>
+        <section class="section-form">
+            <h2 class="visually-hidden">Конкурс на самое безбашенное путешествие с Пинк</h2>
+            <form action="" class="form" method="post">
+                <fieldset>
+                    <legend>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</legend>
+                    <p>
+                        <label for="form-surname">Фамилия:</label>
+                        <input type="text" name="surname" id="form-surname" placeholder="Укажите фамилию *" required>
+                    </p>
+                    <p>
+                        <label for="form-name">Имя:</label>
+                        <input type="text" name="name" id="form-name" placeholder="Введите ваше имя *" required>
+                    </p>
+                    <p>
+                        <label for="form-patronymic">Отчество:</label>
+                        <input type="text" name="patronymic" id="form-patronymic" placeholder="Ну и отчество тоже">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Ваши безбашенные достижения в путешествии</legend>
+                    <p>
+                        <input type="checkbox" name="selfi" id="form-selfi" checked>
+                        <label for="form-selfi">Сделал селфи с акулой</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="beach" id="form-beach" checked>
+                        <label for="form-beach">Обгорел на пляже</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="norris" id="form-norris">
+                        <label for="form-norris">Видел Чака Норриса</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="souvenir" id="form-souvenir">
+                        <label for="form-souvenir">Накупил сувениров</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="tower" id="form-tower" checked>
+                        <label for="form-tower">Удержал башню</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="hotel" id="form-hotel">
+                        <label for="form-hotel">Разгромил отель</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend class="visually-hidden">Ваши контактные данные</legend>
+                    <p>
+                        <label for="form-tel">Номер телефона</label>
+                        <input type="tel" name="tel" id="form-tel" placeholder="Номер, пожалуйста">
+                    </p>
+                    <p>
+                        <label for="form-email">Адрес почты</label>
+                        <input type="email" name="email" id="form-email" placeholder="Введите почту *" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>С каким приложением путешествовали?</legend>
+                    <p>
+                        <input type="radio" name="platform" id="form-ios" checked>
+                        <label for="form-ios">Pink для iOS</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="platform" id="form-android">
+                        <label for="form-android">Pink на Android</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="platform" id="form-phone">
+                        <label for="form-phone">Windows Phone</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Опишите свои эмоции</legend>
+                    <label for="form-emotions"></label>
+                    <textarea name="emotions" id="form-emotions" cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                </fieldset>
+                <button class="button-submit form__button" type="submit">Отправить форму</button>
+                <p class="form__required"><span class="form__required--red">*</span> — обязательные поля</p>
+            </form>
+        </section>
+        <footer class="footer">
+            <a class="logo footer__logo">
+                <img class="logo__img" src="" alt="Pink - мобильное приложение">
+            </a>
+            <ul class="socials footer__socials">
+                <li class="socials__item">
+                    <a href="twitter.com" class="socials__link socials__twitter visually-hidden">Твиттер</a>
+                </li>
+                <li class="socials__item">
+                    <a href="facebook.com" class="socials__link socials__facebook visually-hidden">Фейсбук</a>
+                </li>
+                <li class="socials__item">
+                    <a href="youtube.com" class="socials__link socials__youtube visually-hidden">Ютуб</a>
+                </li>
+            </ul>
+            <p class="copyright footer__copyright">
+                Разработано
+                <a href="htmlacademy.ru"><img src="" alt="htmlacademy.ru"></span></a>
+            </p>
+        </footer>
+    </main>
+</body>
+</html>

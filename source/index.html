@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Pink - мобильное приложение</title>
 </head>
 <body>
     <header class="header">
@@ -10,6 +10,8 @@
             <img class="logo__img" src="" alt="Pink - мобильное приложение">
         </a>
         <nav class="main-navigation">
+            <button class="main-navigation__button button-toggle"><span class="visually-hidden">Открыть меню</span></button>
+            <button class="main-navigation__button button-close visually-hidden"><span class="visually-hidden">Закрыть меню</span></button>
             <ul class="main-menu__list">
                 <li class="main-menu__item">
                     <a class="main-menu__link">Главная</a>
@@ -28,7 +30,7 @@
     </header>
     <main class="main">
         <h1 class="visually-hidden">Pink - мобильное приложение</h1>
-        <section class="section intro">
+        <section class="intro">
             <h2 class="visually-hidden">Взгляните на жизнь иначе!</h2>
             <a href="#" class="button button--download" download>Скачать приложение</a>
             <ul class="system__list">
@@ -73,30 +75,42 @@
                 </li>
             </ul>
         </section>
-        <section class="review">
+        <section class="review slider">
             <h2 class="visually-hidden">Отзывы о приложении Pink</h2>
-            <ul class="review__list">
-                <li class="review__item">
+            <ul class="review__list slider__list">
+                <li class="review__item slider__item">
+                    <b class="review__name">Николай Петров</b>
+                    <p class="review__description">
+                        «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+                    </p>
+                </li>
+                <li class="review__item slider__item">
+                    <b class="review__name">Николай Петров</b>
+                    <p class="review__description">
+                        «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+                    </p>
+                </li>
+                <li class="review__item slider__item">
                     <b class="review__name">Николай Петров</b>
                     <p class="review__description">
                         «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
                     </p>
                 </li>
             </ul>
-            <ul class="review__controls">
-                <li class="review__control">
+            <ul class="review__controls slider__controls">
+                <li class="review__control slider__control">
                     <button class="review__button button-control button-control--active" type="button"></button>
                 </li>
-                <li class="review__control">
+                <li class="review__control slider__control">
                     <button class="review__button button-control" type="button"></button>
                 </li>
-                <li class="review__control">
+                <li class="review__control slider__control">
                     <button class="review__button button-control" type="button"></button>
                 </li>
             </ul>
         </section>
         <section class="price">
-            <table class="price__table" border="2px" style="border-collapse: collapse;">
+            <table class="price__table slider" border="2px" style="border-collapse: collapse;">
                 <thead>
                     <tr class="price__tr--top">
                         <td class="price__td--none">
@@ -136,14 +150,14 @@
                     </tr>
                 </tbody>
             </table>
-            <ul class="price__controls">
-                <li class="price__control">
+            <ul class="price__controls  slider__controls">
+                <li class="price__control slider__control">
                     <button class="price__button button-control" type="button"></button>
                 </li>
-                <li class="price__control">
+                <li class="price__control slider__control">
                     <button class="price__button button-control button-control--active" type="button"></button>
                 </li>
-                <li class="price__control">
+                <li class="price__control slider__control">
                     <button class="price__button button-control" type="button"></button>
                 </li>
             </ul>
@@ -170,6 +184,8 @@
             </div>
         </section>
     </main>
+    <footer class="footer visually-hidden">
 
+    </footer>
 </body>
 </html>
