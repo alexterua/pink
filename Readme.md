@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Терлецкий](https://up.htmlacademy.ru/adaptive/11/user/114667).
-* Наставник: [](https://htmlacademy.ru/profile/serj).
+* Наставник: [Без наставника](https://htmlacademy.ru/profile/serj).
 
 ---
 
