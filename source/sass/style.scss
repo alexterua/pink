@@ -1,3 +1,9 @@
-body {
-  background: #ccc;
+html {
+  box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
